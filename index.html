@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas:regular,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Mono:300,300italic,regular,italic,500,500italic"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5c575ba63c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="card">
+      <div class="text">
+        <div class="text__icon"><i class="fa-solid fa-gift"></i></div>
+        <h2 class="text__title">Merry Christmas</h2>
+        <p class="text__description">
+          You completed all your December's tasks so we decided to get you a
+          gift:
+        </p>
+        <p class="text__offer">50% off on your Yearly Premium Plan</p>
+      </div>
+      <button class="button gift__button">Get your gift</button>
+    </main>
+    <div class="popup" id="popup">
+      <div class="popup__container">
+        <h3>Your Code:</h3>
+        <p class="popup__text">1423-GHIE-2048</p>
+        <button class="button close__button" onclick="closePopup()">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
